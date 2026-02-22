@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Compass</title>
+    <link href="styles.css"  rel="stylesheet">
+    
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">EarthEase  |</a>
+            <a href="#About">About  |</a>
+            <a href="#Calc">Calculation  |</a>
+            <a href="#result">Result</a>
+        </nav>
+    </header>
+    <section>
+        <div id="home">
+            <h1>EarthEase</h1><hr>
+            <h4><center>-----Small Steps__ Real Impact-----</center></h4>
+            <p>Many young people feel anxious about climate change but don’t know where to begin.
+            Carbon Compass helps you understand your personal carbon footprint and take simple, measurable steps toward a more sustainable future.</p>
+        <div class="bt">
+           <center><a href="#Calc"><button type="submit">Calculate  your  Impact</button></a></center></div>
+        </div>
+        <div id="About">
+            <h1><b>🌍  Carbon Compass</b></h1><hr>
+            <p>Climate change can feel overwhelming. Many young people are aware of the problem, but don’t know where to begin.
+
+<br><br>A carbon footprint is the total amount of greenhouse gases produced by our daily activities — such as travel, electricity use, food choices, and consumption habits. Even small actions contribute to long-term environmental impact.
+
+<br><br>Carbon Compass helps you understand your personal impact and turn awareness into action. By calculating your estimated carbon footprint and offering simple, practical suggestions, we aim to make sustainable living feel achievable — not intimidating.
+
+<br><br><b><center>Small steps. Real impact.</center></b></p>
+        </div>
+
+
+        <div id="Calc">
+            <h1 style="color: rgb(188, 142, 41);text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Let's calculate your impact</h1><hr>
+            <form id="carbonForm">
+
+          <label>How do you travel usually:</label><br>
+
+          <input type="radio" id="transport1" name="travel" value="Car">
+          <label for="transport1">Car</label><br>
+          <input type="radio" id="transport2" name="travel" value="Bike">
+          <label for="transport2">Bike</label><br>
+          <input type="radio" id="transport3" name="travel" value="Bus">
+          <label for="transport3">Bus</label><br><br>
+
+
+          <label for="travel1">How many kilometer you travel per week?</label><br>
+          <input type="number" id="travel1"><br><br>
+
+          <label for="current">How many electricity units do you use per month?</label><br>
+          <input type="number" id="current" placeholder="in kWh" ><br><br>
+
+          <label for="meatc">How many meat_based meals do you eat per week?</label><br>
+          <input type="number" id="meatc" placeholder=" meat per week in kg" ><br><br>
+
+          <label>How would you describe your plastic usage?</label><br>
+          <input type="radio" id="plastic1" name="plastic" value="Low">
+          <label for="plastic1">Low(upto 10kg)</label><br>
+          <input type="radio" id="plastic2" name="plastic" value="Medium">
+          <label for="plastic2">Medium(upto 25kg)</label><br>
+          <input type="radio" id="plastic3" name="plastic" value="High">
+          <label for="plastic3">High(upto 50kg)</label><br><br>
+          <button type="submit">Check Your Result</button>
+
+         </form>
+        </div>
+        <div id="result">
+            <h2 id="top" style="text-align: center;">Your Carbon Impact</h2><hr>
+            <h4>Annual emission per year</h4>
+            <p id="totalton">--ton carbon per year</p>
+            <h4>Your impact level:</h4>
+            <p id="impact1">your impact level is --</p>
+            <h4>Suggestion:</h4>
+            <p id="suggestion">--check your impact--</p>
+            <h4>How can you improve..</h4>
+            <p id="tips">---check your impact---</p>
+            
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+    <footer>
+        <p>&copy; 2024 EarthEase. All rights reserved.</p>
+    </footer>
+</body>
+</html>
