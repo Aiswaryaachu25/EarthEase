@@ -20,40 +20,11 @@ a{
     color:green;
     justify-content: center;
 }
-#home{
-    background-color: rgb(244, 244, 244);
-    padding:50px;
-    border-radius: 20px;
-    font-size: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(24,122, 11);
 
-}
 .bt{
     justify-content: center;
     align-items: center;
     padding-bottom: 100px;
-   
-    
-}
-
-body{
-    background-color: rgb(245, 241, 235);
-    background-image: url(img/hack1img.avif);
-    background-size: cover;
-}
-header{
-    position: fixed;
-    text-align: center;
-    height: 1.5cm;
-    width: 100%;
-    font-size: 30px;
-    border-radius: 10px;
-    font-weight: bolder;
-    
-}
-html{
-    scroll-behavior: smooth;
 }
 
 #home{
@@ -63,12 +34,18 @@ html{
     font-size: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(24,122, 11);
+    
 
 }
 #Calc h1 {
     color: rgb(188, 142, 41);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#result h2{
+    text-align: center;
+    font-size: 50px;
 }
 h3{
     color: rgb(11, 140, 69);
@@ -87,18 +64,15 @@ button{
     font-weight: bolder;
     background-color: rgba(193, 170, 160, 0.523);
 }
-div{
-   
-    justify-content: center;
-}
 section{
-    padding-left: 300px;
-    padding-right: 300px;
+    padding:50px 80px;
+    justify-content: center;
+    justify-items: center;
     display:grid;
     width: fit-content;
     gap: 50px;
-    padding-top: 100px;
-   
+    
+    
 }
 input{
     border-radius: 10px;
@@ -111,11 +85,10 @@ input{
     font-size:medium;
 }
 #About{
-    background-color: rgb(245, 248, 248);
-    padding-left: 100px;
-    padding-right: 100px;
+    font-size: 30px;
+    padding: 50px;
+    background-color: rgb(244, 244, 244);
     border-radius: 20px;
-    font-size: larger ;
     color: rgb(24, 122, 11);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -128,54 +101,23 @@ input{
     font-family:monospace;
 }
 #result{
-    background-color: rgb(244, 244, 244);
+   background-color: rgb(244, 244, 244);
     border-radius: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:larger;
-    color: rgb(13, 108, 3);
-    
-}
-footer{
-    background-color: rgb(246, 246, 228);
-    padding: 20px;
-    text-align: center;
-    
-}
-h3{
-    color: rgb(11, 140, 69);
+    width: fit-content;
+    color: rgb(13, 108, 3);  
 }
 
 div{
-    grid-template-columns: 20px;
-    padding: 40px;
+    
+    padding: 80px;
     justify-content: center;
-}
-section{
-    
-    display:grid;
-    width: fit-content;
-    gap: 50px;
-   
-    
-}
-#About{
-    background-color: rgb(245, 248, 248);
-    padding-left: 100px;
-    padding-right: 100px;
-    border-radius: 20px;
-    font-size: larger ;
-    color: rgb(24, 122, 11);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-#Calc{
-   background-color: rgb(245, 248, 244);
-    border-radius: 20px;
-    
 }
 
 footer{
     background-color: rgb(246, 246, 228);
     padding: 20px;
     text-align: center;
-    
+    width: 100%;
 }
